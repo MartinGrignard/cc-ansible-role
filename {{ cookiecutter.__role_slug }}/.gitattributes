@@ -1,0 +1,3 @@
+# Enforce end-of-line
+* text=auto
+*.* text eol=lf

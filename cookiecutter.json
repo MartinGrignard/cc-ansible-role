@@ -1,0 +1,11 @@
+{
+    "author_name": "Martin Grignard",
+    "author_github_name": "MartinGrignard",
+    "author_link": "https://github.com/{{ cookiecutter.author_github_name }}",
+    "role_name": "My role",
+    "__role_slug": "{{ cookiecutter.role_name | slugify }}",
+    "role_short_description": "An ansible role.",
+    "role_repository": "https://github.com/{{ cookiecutter.author_github_name }}/ansible-role-{{ cookiecutter.__role_slug }}",
+    "kofi_link": "https://ko-fi.com/martingrignard",
+    "credit_template": true
+}
