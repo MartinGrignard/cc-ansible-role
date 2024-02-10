@@ -19,8 +19,9 @@ It is mainly built to speed up the definition of the test environments and repos
 
 Here are the main features included in this template:
 
-| Feature | Description |
-|---------|-------------|
+| Feature | Description | Status |
+|---------|-------------|--------|
+| Git repository | A git repository is initialised inside the root directory of the generated project. If the variable `role_repository` is not empty, the `origin` remote is also defined. | ✅ |
 
 ## Usage
 
