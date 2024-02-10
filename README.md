@@ -36,6 +36,21 @@ Or its [Cruft][cruft] equivalent:
 cruft create https://github.com/MartinGrignard/cc-ansible-role
 ```
 
+## Variables
+
+Here are the variables accepted by this template:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `author_name` | The name of the author. | `"Martin Grignard"` |
+| `author_github_name` | The Github ID of the author. | `"MartinGrignard"` |
+| `author_link` | The URL of a profile page of the author. | `"https://github.com/{{ author_github_name }}"` |
+| `author_kofi_link` | The URL of the Ko-fi profile of the author. | `"https://ko-fi.com/martingrignard"` |
+| `role_name` | The name of the role. | `"My role"` |
+| `role_short_description` | The short description of the role. | `"An ansible role."` |
+| `role_repository` | The URL of the repository of the role. | `"https://github.com/{{ author_github_name }}/ansible-role-{{ __role_slug }}"` |
+| `credit_template` | Whether or not to credit this Cookiecutter template in the README file of the role. | `true` |
+
 ## License
 
 This project is published under [MIT license](LICENSE.md).
