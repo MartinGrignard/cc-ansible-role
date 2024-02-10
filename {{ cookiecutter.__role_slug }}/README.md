@@ -71,3 +71,5 @@ You can always buy me a coffee on [Ko-fi](https://ko-fi.com/martingrignard):
 
 <!-- References -->
 [author]: {{ cookiecutter.author_link }}
+[mary-amato]: https://twitter.com/maryamato88
+[notioly]: https://notioly.com/
